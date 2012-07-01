@@ -21,7 +21,7 @@ object AppleScriptUtils {
 
   def speak(sentence: String, voice: String)
   {
-    val thingToSay = "say %s using %s".format(sentence, voice)
+    val thingToSay = "say \"%s\" using \"%s\"".format(sentence, voice)
     try {
       getScriptEngine.eval(thingToSay)
     } catch {
