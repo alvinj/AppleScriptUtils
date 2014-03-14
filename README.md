@@ -16,8 +16,8 @@ The AppleScriptUtils object has `speak` methods that work like this:
     AppleScriptUtils.speak("Hello, world", VICKI)
 
     
-exec Methods
-------------
+`exec` Methods
+--------------
 
 I just added two `exec` methods that can be invoked like this:
 
